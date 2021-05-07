@@ -13,10 +13,11 @@
 		2526BA842642D8B5006F07BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2526BA822642D8B5006F07BF /* Main.storyboard */; };
 		2526BA862642D8B7006F07BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2526BA852642D8B7006F07BF /* Assets.xcassets */; };
 		2526BA892642D8B7006F07BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2526BA872642D8B7006F07BF /* LaunchScreen.storyboard */; };
+		2526BA912642D982006F07BF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA902642D982006F07BF /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2526BA792642D8B5006F07BF /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2526BA792642D8B5006F07BF /* Not Hotdog?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Not Hotdog?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2526BA7C2642D8B5006F07BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2526BA7E2642D8B5006F07BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2526BA802642D8B5006F07BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		2526BA852642D8B7006F07BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2526BA882642D8B7006F07BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2526BA8A2642D8B7006F07BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2526BA902642D982006F07BF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		2526BA702642D8B5006F07BF = {
 			isa = PBXGroup;
 			children = (
-				2526BA7B2642D8B5006F07BF /* SeeFood */,
+				2526BA7B2642D8B5006F07BF /* Not Hotdog? */,
 				2526BA7A2642D8B5006F07BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +50,12 @@
 		2526BA7A2642D8B5006F07BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2526BA792642D8B5006F07BF /* SeeFood.app */,
+				2526BA792642D8B5006F07BF /* Not Hotdog?.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2526BA7B2642D8B5006F07BF /* SeeFood */ = {
+		2526BA7B2642D8B5006F07BF /* Not Hotdog? */ = {
 			isa = PBXGroup;
 			children = (
 				2526BA7C2642D8B5006F07BF /* AppDelegate.swift */,
@@ -63,16 +65,17 @@
 				2526BA852642D8B7006F07BF /* Assets.xcassets */,
 				2526BA872642D8B7006F07BF /* LaunchScreen.storyboard */,
 				2526BA8A2642D8B7006F07BF /* Info.plist */,
+				2526BA902642D982006F07BF /* Inceptionv3.mlmodel */,
 			);
-			path = SeeFood;
+			path = "Not Hotdog?";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2526BA782642D8B5006F07BF /* SeeFood */ = {
+		2526BA782642D8B5006F07BF /* Not Hotdog? */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2526BA8D2642D8B7006F07BF /* Build configuration list for PBXNativeTarget "SeeFood" */;
+			buildConfigurationList = 2526BA8D2642D8B7006F07BF /* Build configuration list for PBXNativeTarget "Not Hotdog?" */;
 			buildPhases = (
 				2526BA752642D8B5006F07BF /* Sources */,
 				2526BA762642D8B5006F07BF /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SeeFood;
+			name = "Not Hotdog?";
 			productName = SeeFood;
-			productReference = 2526BA792642D8B5006F07BF /* SeeFood.app */;
+			productReference = 2526BA792642D8B5006F07BF /* Not Hotdog?.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2526BA742642D8B5006F07BF /* Build configuration list for PBXProject "SeeFood" */;
+			buildConfigurationList = 2526BA742642D8B5006F07BF /* Build configuration list for PBXProject "Not Hotdog?" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2526BA782642D8B5006F07BF /* SeeFood */,
+				2526BA782642D8B5006F07BF /* Not Hotdog? */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2526BA812642D8B5006F07BF /* ViewController.swift in Sources */,
+				2526BA912642D982006F07BF /* Inceptionv3.mlmodel in Sources */,
 				2526BA7D2642D8B5006F07BF /* AppDelegate.swift in Sources */,
 				2526BA7F2642D8B5006F07BF /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RVDGMAVH9;
-				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Not Hotdog?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RVDGMAVH9;
-				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Not Hotdog?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2526BA742642D8B5006F07BF /* Build configuration list for PBXProject "SeeFood" */ = {
+		2526BA742642D8B5006F07BF /* Build configuration list for PBXProject "Not Hotdog?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2526BA8B2642D8B7006F07BF /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2526BA8D2642D8B7006F07BF /* Build configuration list for PBXNativeTarget "SeeFood" */ = {
+		2526BA8D2642D8B7006F07BF /* Build configuration list for PBXNativeTarget "Not Hotdog?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2526BA8E2642D8B7006F07BF /* Debug */,
