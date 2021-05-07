@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251131142645E7A4000D1E9D /* random.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 251131132645E7A4000D1E9D /* random.m4a */; };
 		2526BA7D2642D8B5006F07BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA7C2642D8B5006F07BF /* AppDelegate.swift */; };
 		2526BA7F2642D8B5006F07BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA7E2642D8B5006F07BF /* SceneDelegate.swift */; };
 		2526BA812642D8B5006F07BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA802642D8B5006F07BF /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251131132645E7A4000D1E9D /* random.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = random.m4a; sourceTree = "<group>"; };
 		2526BA792642D8B5006F07BF /* Not Hotdog?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Not Hotdog?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2526BA7C2642D8B5006F07BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2526BA7E2642D8B5006F07BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251131122645E77C000D1E9D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				251131132645E7A4000D1E9D /* random.m4a */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		2526BA702642D8B5006F07BF = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 				2526BA802642D8B5006F07BF /* ViewController.swift */,
 				2526BA822642D8B5006F07BF /* Main.storyboard */,
 				2526BA852642D8B7006F07BF /* Assets.xcassets */,
+				251131122645E77C000D1E9D /* Audio */,
 				2526BA872642D8B7006F07BF /* LaunchScreen.storyboard */,
 				2526BA8A2642D8B7006F07BF /* Info.plist */,
 				2526BA902642D982006F07BF /* Inceptionv3.mlmodel */,
@@ -127,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251131142645E7A4000D1E9D /* random.m4a in Resources */,
 				2526BA892642D8B7006F07BF /* LaunchScreen.storyboard in Resources */,
 				2526BA862642D8B7006F07BF /* Assets.xcassets in Resources */,
 				2526BA842642D8B5006F07BF /* Main.storyboard in Resources */,
