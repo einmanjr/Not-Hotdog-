@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		251131142645E7A4000D1E9D /* random.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 251131132645E7A4000D1E9D /* random.m4a */; };
 		2526BA7D2642D8B5006F07BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA7C2642D8B5006F07BF /* AppDelegate.swift */; };
 		2526BA7F2642D8B5006F07BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA7E2642D8B5006F07BF /* SceneDelegate.swift */; };
 		2526BA812642D8B5006F07BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA802642D8B5006F07BF /* ViewController.swift */; };
@@ -17,10 +16,10 @@
 		2526BA912642D982006F07BF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2526BA902642D982006F07BF /* Inceptionv3.mlmodel */; };
 		25388635264751DF005997D2 /* Hotdog real.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 25388634264751DF005997D2 /* Hotdog real.m4a */; };
 		25BD27312647543400D3EFAC /* Real Not Hotdog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 25BD27302647543400D3EFAC /* Real Not Hotdog.m4a */; };
+		E7DF16D7FEFB54DE53485F71 /* Pods_Not_Hotdog_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0593D85EAEEFA64FD5FF165 /* Pods_Not_Hotdog_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		251131132645E7A4000D1E9D /* random.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = random.m4a; sourceTree = "<group>"; };
 		2526BA792642D8B5006F07BF /* Not Hotdog?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Not Hotdog?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2526BA7C2642D8B5006F07BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2526BA7E2642D8B5006F07BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +31,9 @@
 		2526BA902642D982006F07BF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		25388634264751DF005997D2 /* Hotdog real.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hotdog real.m4a"; sourceTree = "<group>"; };
 		25BD27302647543400D3EFAC /* Real Not Hotdog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Real Not Hotdog.m4a"; sourceTree = "<group>"; };
+		3CC5F241AAEFCE49EA2476BC /* Pods-Not Hotdog?.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Not Hotdog?.release.xcconfig"; path = "Target Support Files/Pods-Not Hotdog?/Pods-Not Hotdog?.release.xcconfig"; sourceTree = "<group>"; };
+		E0593D85EAEEFA64FD5FF165 /* Pods_Not_Hotdog_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Not_Hotdog_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F245533F1F13292A60176CE4 /* Pods-Not Hotdog?.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Not Hotdog?.debug.xcconfig"; path = "Target Support Files/Pods-Not Hotdog?/Pods-Not Hotdog?.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,18 +41,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7DF16D7FEFB54DE53485F71 /* Pods_Not_Hotdog_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD165DBD80709622CAC3AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0593D85EAEEFA64FD5FF165 /* Pods_Not_Hotdog_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ACE79AA797FF3934FF891AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F245533F1F13292A60176CE4 /* Pods-Not Hotdog?.debug.xcconfig */,
+				3CC5F241AAEFCE49EA2476BC /* Pods-Not Hotdog?.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		251131122645E77C000D1E9D /* Audio */ = {
 			isa = PBXGroup;
 			children = (
 				25BD27302647543400D3EFAC /* Real Not Hotdog.m4a */,
 				25388634264751DF005997D2 /* Hotdog real.m4a */,
-				251131132645E7A4000D1E9D /* random.m4a */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -60,6 +80,8 @@
 			children = (
 				2526BA7B2642D8B5006F07BF /* Not Hotdog? */,
 				2526BA7A2642D8B5006F07BF /* Products */,
+				1ACE79AA797FF3934FF891AD /* Pods */,
+				0CD165DBD80709622CAC3AA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2526BA8D2642D8B7006F07BF /* Build configuration list for PBXNativeTarget "Not Hotdog?" */;
 			buildPhases = (
+				472EB812795708986762B2B7 /* [CP] Check Pods Manifest.lock */,
 				2526BA752642D8B5006F07BF /* Sources */,
 				2526BA762642D8B5006F07BF /* Frameworks */,
 				2526BA772642D8B5006F07BF /* Resources */,
+				B860CD697D724B12F8335933 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,7 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				25388635264751DF005997D2 /* Hotdog real.m4a in Resources */,
-				251131142645E7A4000D1E9D /* random.m4a in Resources */,
 				2526BA892642D8B7006F07BF /* LaunchScreen.storyboard in Resources */,
 				25BD27312647543400D3EFAC /* Real Not Hotdog.m4a in Resources */,
 				2526BA862642D8B7006F07BF /* Assets.xcassets in Resources */,
@@ -154,6 +177,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		472EB812795708986762B2B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Not Hotdog?-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B860CD697D724B12F8335933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Not Hotdog?/Pods-Not Hotdog?-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Not Hotdog?/Pods-Not Hotdog?-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Not Hotdog?/Pods-Not Hotdog?-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2526BA752642D8B5006F07BF /* Sources */ = {
@@ -307,6 +372,7 @@
 		};
 		2526BA8E2642D8B7006F07BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F245533F1F13292A60176CE4 /* Pods-Not Hotdog?.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +392,7 @@
 		};
 		2526BA8F2642D8B7006F07BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC5F241AAEFCE49EA2476BC /* Pods-Not Hotdog?.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
