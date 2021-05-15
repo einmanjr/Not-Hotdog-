@@ -7,8 +7,12 @@
 
 import Foundation
 import UIKit
+import RealmSwift
+
 
 class LeftSideMenuController: UITableViewController {
+    
+    let realm = try! Realm()
     
     override func viewDidLoad() {
         super.viewDidLoad()
